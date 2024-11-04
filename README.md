@@ -1,5 +1,5 @@
 #The Incubator Hub Customer Analysis Project
-This contains my project documentation of Customer Segmentation Analysis For A Subscription Service
+This contain my project documentation on Customer Segmentation Analysis For A Subscription Service
 
 
 ### Project Title: Customer Segmentation Analysis For A Subscription Service
@@ -22,6 +22,9 @@ Cancelled: This Column  Indicate Whether The Subscription Is Cancelled Or Not
 
 ###### Screenshot Of The Data Is Shown Below
 
+![image](https://github.com/user-attachments/assets/2696309a-5c9e-4774-8533-3930da6d0d21)
+
+
 ### Tools Used
   - Microsoft Excel For Cleaning And Analysing The Data.
   - Structered Query Language (SQL) For Querying The Data
@@ -36,9 +39,13 @@ Cancelled: This Column  Indicate Whether The Subscription Is Cancelled Or Not
 
 #### Data Screenshot  After Cleaning  
 
+![image](https://github.com/user-attachments/assets/e9367617-e42a-4138-b1d7-259069ec58b1)
+
+
 ### Excel Analysis
 The Following Analysis Was Performed Using Pivot Table 
 -	Revenue By Region
+-	
 
 -	Revenue By Subscription Type
 
@@ -61,6 +68,7 @@ The Following Analysis Was Performed Using Pivot Table
 -	Cancelled By Number Of Cancelled
 
 -	Revenue By Region | Subscription Type
+-	
 
 The Following Analysis Was Performed Using Excel Function
 -	Average Subscription Duration 
