@@ -232,7 +232,6 @@ LIMIT 3;
 ![image](https://github.com/user-attachments/assets/ef983e87-3c4e-4ce6-9bc4-cf66cef63095)
 
 
-
 8)  find the total number of active and canceled subscriptions.
 ``` Sql
 SELECT Canceled, COUNT(*) AS ' Number of Subscription'
@@ -240,4 +239,15 @@ FROM lita_customer
 GROUP BY  canceled;
 ```
 ![image](https://github.com/user-attachments/assets/693c9d09-796e-41ec-b427-c5c5632f4a19)
+
+
+### POWERBI VISUALIZATION
+
+![image](https://github.com/user-attachments/assets/b8604367-e5ba-416b-8915-a69891835ecd)
+
+
+
+![image](https://github.com/user-attachments/assets/a48a15b9-5d3c-4e1f-85c0-707b717e6e22)
+
+
 
