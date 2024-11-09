@@ -123,9 +123,7 @@ Answer:		![image](https://github.com/user-attachments/assets/f932aacc-16d4-4c67-
 
 #### Data Cleaning And Preparation
 
-- Imported Customer Data Into Project_Lita  Database Already Created 
-- Data Datatype Was Checked For Error, Subscriptionstart And Subscriptionend  Have 'Text' Datatype
--  Changed Subscriptionstart And Subscriptionend Column Text Datatype To  Date Datatype With The Query Below
+-  Changed Subscriptionstart And Subscriptionend Column Text Datatype To  **Date Datatype** With The Query Below
   
 -- Subscription Start
  ```Sql
@@ -241,13 +239,64 @@ GROUP BY  canceled;
 ![image](https://github.com/user-attachments/assets/693c9d09-796e-41ec-b427-c5c5632f4a19)
 
 
-### POWERBI VISUALIZATION
+### DATA VISUALIZATION
 
 ![image](https://github.com/user-attachments/assets/b8604367-e5ba-416b-8915-a69891835ecd)
 
 
 
 ![image](https://github.com/user-attachments/assets/a48a15b9-5d3c-4e1f-85c0-707b717e6e22)
+
+
+
+### INSIGHTS AND RECOMMENDATION
+Data-Driven Story
+The dashboard sheds light on various aspects of customer segmentation and subscription trends:
+
+- Customer 
+The analysis covers a total Customer Count of 33.79K, highlighting a substantial customer base for the subscription service.
+
+- Subscription Duration
+The Average Subscription Duration is 365 days, indicating that, on average, customers are subscribed for approximately one year, which is a healthy duration for customer retention.
+
+- Customer Status
+Out of the total customer base, 15K (45%) of customers are cancelled while 19K (55%) remain active. This close ratio between active and canceled subscriptions suggests a significant attrition rate, which may warrant further investigation and action to improve retention.
+
+- Regional Distribution
+The Customer Count by Region chart shows a fairly even distribution across regions, with around 8.4K - 8.5K customers in each region (East, South, North, West). This balance indicates an evenly spread customer base, but it also points to areas where targeted efforts can be made to increase regional engagement.
+
+- Top Regions by Cancellations
+The Top 3 Regions by Cancellations graph highlights North, South, and West as the regions with the highest cancellations, each around 5K cancellations. Understanding the causes of these cancellations could help reduce churn in these regions.
+
+- Subscription Type
+Among the subscription types, Standard subscriptions dominate with 50% (16.9K), followed by Basic and Premium at 25% each (8.5K and 8.4K). This indicates that the Standard plan is the most preferred, which may guide future product offerings or pricing strategies.
+
+- Revenue Distribution by Subscription Type
+The Total Revenue stands at 68M, with each subscription type contributing as follows:
+Standard: 34M (50%)
+Basic and Premium: 17M each (25%)
+This distribution suggests a strong reliance on the Standard plan, with Premium and Basic providing supplementary revenue.
+
+
+### Recommendations
+Based on the data insights, here are some recommendations for improving customer retention and boosting revenue:
+
+- Address High Cancellation Rate
+With 45% of customers having canceled their subscriptions, it’s critical to investigate common reasons for churn, especially in high-cancellation regions (North, South, and West). Consider implementing targeted customer feedback surveys, loyalty programs, or exclusive offers to increase retention.
+
+- Boost Premium Plan Adoption
+The Standard subscription plan is the most popular, but there’s potential to increase revenue by promoting the Premium plan. Consider bundling Premium services with additional features, running limited-time discounts, or offering a trial period to attract more customers to upgrade.
+
+- Increase Regional Engagement
+Although the customer base is fairly evenly distributed across regions, there are opportunities to increase customer engagement in each region. Regional marketing campaigns, community events, or partnerships could help enhance brand loyalty and attract new customers.
+
+- Focus on Customer Experience Improvements
+With the average subscription duration at 365 days, retaining customers beyond this period should be a key focus. Improving customer experience, offering personalized content or services, and ensuring timely communication can help in extending the subscription duration and reducing cancellations.
+
+- Expand Basic and Premium Options
+Given that the Basic and Premium subscriptions contribute equally to the revenue share, there’s an opportunity to differentiate these offerings. By expanding features exclusive to each plan, the business can attract customers with varying preferences and budget levels, ultimately enhancing customer satisfaction and loyalty.
+By implementing these strategies, the subscription service can work towards reducing churn, optimizing revenue from subscription types, and building a more loyal and engaged customer base.
+
 
 
 
