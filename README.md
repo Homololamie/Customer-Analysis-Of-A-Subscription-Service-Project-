@@ -5,11 +5,17 @@ This contain my project documentation on Customer Segmentation Analysis For A Su
 ### Project Title: Customer Segmentation Analysis For A Subscription Service
 
 ### Project Overview
+
+---
 The Project Aims To Analyze Customer Data For A Subscription Service To Identify Segments And Trends. 
-By Exploring The Various Parameter I Seek To Uncover Customer Behavior, Track Subscription Types, And Identify Key Trends In Cancellations And Renewals. 
+By Exploring The Various
+Parameter I Seek To Uncover Customer Behavior, Track Subscription Types, And Identify Key Trends In Cancellations And Renewals. 
 
 ### Data Source
-The Data Was Provided By The Incubator Hub ,In CSV Format. 
+
+---
+The main data sources for this analysis is   "Data Customer.csv" which are open-source datasets available for free download from online repositories like Kaggle, FRED, or other similar platforms.The Data Was Provided By The Incubator Hub ,In CSV Format.
+ 
 
 ##### The Dataset Includes The Following Columns:
 Customerid: Unique Identifier For Each Customer
@@ -26,11 +32,17 @@ Cancelled: This Column  Indicate Whether The Subscription Is Cancelled Or Not
 
 
 ### Tools Used
+
+--- 
+
   - Microsoft Excel For Cleaning And Analysing The Data.
   - Structered Query Language (SQL) For Querying The Data
   - Microsoft Powerbi For Visualization
 
 ### Data Cleaning And Preparation
+
+---
+
 - Ensured Data Quality By Correcting Any Spelling Errors, Removing Duplicate Entries And Blank Cells
 - Ensured All Data Fields Were Assigned The Correct Data Types And Date Fields Set To Date Format.
 - Created New Columns :
@@ -42,7 +54,12 @@ Cancelled: This Column  Indicate Whether The Subscription Is Cancelled Or Not
 ![image](https://github.com/user-attachments/assets/e9367617-e42a-4138-b1d7-259069ec58b1)
 
 
-### Excel Analysis
+### Exploratory Data Analysis
+
+---
+This Involved Exploring The Data To Answer Some Questions About The Data
+
+#### Excel Analysis
 The Following Analysis Was Performed Using Pivot Table 
 -	Revenue By Region
 
@@ -121,7 +138,12 @@ Answer:		![image](https://github.com/user-attachments/assets/f932aacc-16d4-4c67-
 
 ### Structured Query Language (SQL) Analysis
 
+---
+
 #### Data Cleaning And Preparation
+
+--- 
+This Section Include  Queries  written to extract key insights from the data :
 
 -  Changed Subscriptionstart And Subscriptionend Column Text Datatype To  **Date Datatype** With The Query Below
   
@@ -150,11 +172,6 @@ END);
 ``` Sql
 ALTER table lita_customer
 MODIFY column subscriptionend Date;
-```
-- To Confirm The datatype Has Been  Changed, The Query Below Was Used
-  
-```Sql
-DESCRIBE lita_Customer;
 ```
 
 #### The Following Queries was written to Extract The Following Insights From the data :	
@@ -241,6 +258,8 @@ GROUP BY  canceled;
 
 ### DATA VISUALIZATION
 
+--- 
+
 ![image](https://github.com/user-attachments/assets/b8604367-e5ba-416b-8915-a69891835ecd)
 
 
@@ -250,7 +269,9 @@ GROUP BY  canceled;
 
 
 ### INSIGHTS AND RECOMMENDATION
-Data-Driven Story
+
+--- 
+
 The dashboard sheds light on various aspects of customer segmentation and subscription trends:
 
 - Customer 
@@ -279,6 +300,9 @@ This distribution suggests a strong reliance on the Standard plan, with Premium 
 
 
 ### Recommendations
+
+---
+
 Based on the data insights, here are some recommendations for improving customer retention and boosting revenue:
 
 - Address High Cancellation Rate
